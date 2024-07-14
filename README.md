@@ -7,6 +7,7 @@ Generate sites from predefined dorks
 Scan websites for vulnerabilities using nmap
 View and manage sample dorks
 Logging and error handling for better traceability
+
 **Requirements**
 Python 3.x
 Required Python packages:
@@ -16,6 +17,7 @@ shutil
 logging
 subprocess
 multiprocessing
+
 **Dependencies**
 Make sure you have the following dependencies installed on your system:
 
@@ -28,17 +30,20 @@ bash
 Copy code
 git clone https://github.com/rajamuhammadawais1/SiteDorker.git
 cd SiteDorker
+
 **Install the required Python packages**:
 
 bash
 Copy code
 pip install -r requirements.txt
+
 **Ensure nmap and curl are installed on your sys**tem:
 
 bash
 Copy code
 sudo apt-get install nmap curl   # For Debian-based systems
 sudo yum install nmap curl       # For RHEL-based systems
+
 **Usage
 Run the script:**
 bash
@@ -50,6 +55,7 @@ Scan For Vulnerable Sites
 View Sample Dorks
 For Instructions
 Exit
+
 **Configuration**
 Upon first run, the script will create necessary directories and configuration files. The configuration file is located at ~/myapp/config/config.ini and contains paths for sample dorks and the log file.
 
